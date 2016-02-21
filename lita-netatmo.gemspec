@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-netatmo'
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ['fukayatsu']
   spec.email         = ['fukayatsu@gmail.com']
   spec.description   = 'A Lita handler for fetching sensor data from netatmo.'
@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'lita', '>= 4.2'
+  spec.add_runtime_dependency 'oauth2'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'pry-byebug'
