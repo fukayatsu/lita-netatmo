@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-netatmo'
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ['fukayatsu']
   spec.email         = ['fukayatsu@gmail.com']
   spec.description   = 'A Lita handler for fetching sensor data from netatmo.'
